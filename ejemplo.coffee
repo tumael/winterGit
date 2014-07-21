@@ -30,5 +30,13 @@ esPar = (numero)->
 
  res
 
+#funcion que verifica si un numero es impar
+impar=(numero)->
+ res=true 
+ if numero % 2 is 0
+   res =false
+
+ res
+
 #alert numeroInvertido 1234567
 #alert numeroEspejo 12321
