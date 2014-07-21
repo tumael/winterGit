@@ -30,5 +30,17 @@ esPar = (numero)->
 
  res
 
+multiploDe = (numero) ->
+ res = ""
+ num = 1      
+ while num <= numero
+  if numero % num is 0
+   res = res + num + "; "
+
+  num = num + 1
+
+ return res
+
+#alert multiploDe 10
 #alert numeroInvertido 1234567
 #alert numeroEspejo 12321
