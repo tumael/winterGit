@@ -51,6 +51,14 @@ multiploDe = (numero) ->
 
  return res
 
+natural = (numero) ->
+ res = false
+ if numero > 0
+  res = true
+
+ return res
+
+
 #alert multiploDe 10
 #alert numeroInvertido 1234567
 #alert numeroEspejo 12321
