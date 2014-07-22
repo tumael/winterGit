@@ -58,7 +58,16 @@ natural = (numero) ->
 
  return res
 
+# Devuelve si un numero es o no primo
+esPrimo= (num) -> 
+  resp=true
+  resp= false for i in [2..num-1] when num%i==0
+  resp= true if num==1 
+  resp
+
+
 
 #alert multiploDe 10
 #alert numeroInvertido 1234567
 #alert numeroEspejo 12321
+#alert esPrimo 5
