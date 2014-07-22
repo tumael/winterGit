@@ -58,6 +58,7 @@ natural = (numero) ->
 
  return res
 
+#<<<<<<< HEAD
 # Devuelve si un numero es o no primo
 esPrimo= (num) -> 
   resp=true
@@ -65,9 +66,17 @@ esPrimo= (num) ->
   resp= true if num==1 
   resp
 
+#=======
+#primos de 1 a max
+primos= (max) -> ( num for num in [1..max*10] when esPrimo(num) && _results.length <max) 
+#>>>>>>> funcion que devuelve loss primero n primos
 
 
 #alert multiploDe 10
 #alert numeroInvertido 1234567
 #alert numeroEspejo 12321
+#<<<<<<< HEAD
 #alert esPrimo 5
+#=======
+#alert primos 10
+#>>>>>>> funcion que devuelve los primero n primos
