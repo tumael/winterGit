@@ -1,10 +1,9 @@
 #Funcion imaginaria 1
 #funcion imaginaria 2
-<<<<<<< HEAD
 #nueva funcion
 #nueva funcion otra vez2
 =======
->>>>>>> develop
+#Funcion imaginaria3
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
   res=0
