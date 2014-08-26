@@ -1,7 +1,7 @@
 #Funcion imaginaria 1
 #funcion imaginaria 2
 #nueva funcion
-#nueva funcion otra vez
+#nueva funcion otra vez2
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
   res=0
