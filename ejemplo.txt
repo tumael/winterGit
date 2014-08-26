@@ -1,3 +1,4 @@
+#Funcion imaginaria 1
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
   res=0
