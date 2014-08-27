@@ -7,6 +7,7 @@
 #Feature/funcion3
 
 #Feature/funcion3 con [d]git merge --no-ff f/l 
+#Feature/funcion3 con [d]git merge --no-ff f/l 2
 
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
