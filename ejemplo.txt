@@ -9,6 +9,10 @@
 #Feature/funcion3 con [d]git merge --no-ff f/l 
 #Feature/funcion3 con [d]git merge --no-ff f/l 2
 
+
+#Feature/funcion3 con [d]git merge --no-ff f/l 3
+
+
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
   res=0
