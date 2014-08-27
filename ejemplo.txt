@@ -5,6 +5,9 @@
 =======
 #Funcion imaginaria3
 #Feature/funcion3
+
+#Feature/funcion3 con [d]git merge --no-ff f/l 
+
 #INVIERTE UN NUMERO
 numeroInvertido=(numero)->
   res=0
